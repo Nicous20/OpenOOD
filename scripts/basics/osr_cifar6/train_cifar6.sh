@@ -7,9 +7,9 @@ node=73
 jobname=openood
 
 PYTHONPATH='.':$PYTHONPATH \
-srun -p dsta --mpi=pmi2 --gres=gpu:${GPU} -n1 \
---cpus-per-task=${CPU} --ntasks-per-node=${GPU} \
---kill-on-bad-exit=1 --job-name=${jobname} \
+#srun -p dsta --mpi=pmi2 --gres=gpu:${GPU} -n1 \
+#--cpus-per-task=${CPU} --ntasks-per-node=${GPU} \
+#--kill-on-bad-exit=1 --job-name=${jobname} \
 python main.py \
 --config configs/datasets/osr_cifar6/cifar6_seed5.yml \
 configs/preprocessors/base_preprocessor.yml \
