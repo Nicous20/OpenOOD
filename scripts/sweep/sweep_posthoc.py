@@ -18,10 +18,10 @@ network_dict = {
 }
 
 checkpoint_dict = {
-    'mnist': './results/checkpoints/mnist_lenet_acc98.50.ckpt',
-    'cifar10': './results/checkpoints/cifar10_res18_acc95.24.ckpt',
-    'cifar100': './results/checkpoints/cifar100_res18_acc77.10.ckpt',
-    'imagenet': './results/checkpoints/imagenet_res50_acc76.17.pth',
+    'mnist': './results/checkpoints/mnist_lenet_acc99.20.ckpt',
+    'cifar10': './results/checkpoints/cifar10_res18_acc94.30.ckpt',
+    'cifar100': './results/checkpoints/cifar100_res18_acc78.10.ckpt',
+    'imagenet': './results/checkpoints/imagenet_res50_acc76.10.pth',
     'mnist6': './results/checkpoints/osr/mnist6',
     'cifar6': './results/checkpoints/osr/cifar6',
     'cifar50': './results/checkpoints/osr/cifar50',
